@@ -85,28 +85,6 @@ class WheelCanvas(tk.Canvas):
             # Creates a triangle sector for each number
             self.create_polygon(p0[0], p0[1], x1, y1, x2, y2, fill=col, outline="#111")
 
-        # Alternative method to create sectors, but colors are messed up
-        # if you want to use it, fix the color assignment part
-        """
-        for idx, n in enumerate(EUROPEAN_ORDER):
-            start_angle = idx * SECTOR_ANGLE + self.wheel_angle
-            col = number_color(n)   # Set color based on number
-            
-            # Convert angles from radians to degrees (create_arc uses degrees)
-            start_angle_deg = math.degrees(start_angle)
-            extent_angle_deg = math.degrees(SECTOR_ANGLE)
-            
-            # Draw sector as a pie slice
-            self.create_arc(
-                cx - R, cy - R,      # Top-left bounding box
-                cx + R, cy + R,      # Bottom-right bounding box 
-                start=start_angle_deg,
-                extent=extent_angle_deg,
-                fill=col,
-                outline="#111",
-                style=tk.PIESLICE    # This creates the wedge shape
-            )
-        """
         
         # Number labels
         for idx, n in enumerate(EUROPEAN_ORDER):
@@ -587,4 +565,5 @@ class Roulette(tk.Tk):
 if __name__ == "__main__":    
     app = Roulette()
     app.mainloop()
+
 
