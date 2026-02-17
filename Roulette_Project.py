@@ -1,9 +1,5 @@
 """Yuhan Peter Bauer, Zephyr Bégin Zhang, and Hakeem Pit Al-Timime"""
 
-#CHECK GRADING SCHEME BEFORE WRITING
-'''DON'T FORGET TO ADD COMMENTS TO EVERY CLASS,
-FUNCTION, AND THINGS THAT SHOULD HAVE EXPLANATIONS'''
-
 import tkinter as tk
 from tkinter import messagebox
 import math
@@ -591,3 +587,4 @@ class Roulette(tk.Tk):
 if __name__ == "__main__":    
     app = Roulette()
     app.mainloop()
+
