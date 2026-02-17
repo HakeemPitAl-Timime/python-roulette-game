@@ -1,4 +1,4 @@
-View External_Documentation_Roulette for full overview. If it is non-accesible below is the content.
+View External_Documentation_Roulette.pdf for full overview. If it is non-accesible below is the content.
 
 ------------------------Roulette Game Application------------------------
 By: Yuhan Peter Bauer, Zephyr Begin Zhang, and Hakeem Pit Al-Timime
